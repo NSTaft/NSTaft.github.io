@@ -142,7 +142,7 @@ h1, p {
     background-color: var(--background-color);
     border: 2px solid var(--text-color);
     max-width: 500px;
-    margin: 4rem 0;
+    margin: 1rem 0;
     margin-bottom: 6rem;
     padding: 1rem;
     position: relative;
@@ -201,7 +201,52 @@ h1, p {
 /*HOME: END*/
 
 /*ABOUT: START*/
-#about h1 {
+/* #about h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+}
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    margin: auto;
+}
+.projects figure {
+    height: 25vh;
+    margin: 1rem auto 4rem auto;
+    max-height: 200px;
+} */
+/* .projects figure img {
+    max-width: 400px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    height: 100%;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    border: 5px outset var(--text-color);
+    transition: transform ease .4s;
+}
+.projects figure img:hover {
+    transform: scale(1.5);
+    object-fit: fill;
+}
+.projects figure figcaption {
+    width: 90%;
+    padding: .7rem 0;   
+    border: 2px solid var(--text-color);
+    margin: auto;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+} */
+/*ABOUT: END*/
+
+/*PROJECTS: START*/
+#projects h1 {
     font-size: 4rem;
     text-align: center;
     margin-bottom: .5rem;
@@ -243,7 +288,7 @@ h1, p {
     font-weight: 400;
     text-align: center;
 }
-/*ABOUT: END*/
+/*PROJECTS: END*/
 
 /*CONTACT: START*/
 #contact {
